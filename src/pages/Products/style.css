@@ -1,0 +1,56 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1%;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.title {
+  font-size: 1.5em;
+  color: var(--emphasis-color);
+  border-bottom: 1px #d1d1d1 solid;
+  padding-bottom: 1%;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  color: var(--emphasis-color);
+}
+
+.data-container {
+  width: 100%;
+  margin: 3%;
+}
+
+.finalize-container {
+  text-align: right;
+}
+
+@media (max-width: 719px) {
+  .grid {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1139px) {
+  .title {
+    font-size: 1.2em;
+  }
+
+  .subtitle {
+    font-size: 1.2em;
+    color: var(--emphasis-color);
+  }
+}
+
+@media (min-width: 1140px) {
+  .grid {
+    justify-content: space-between;
+  }
+}
