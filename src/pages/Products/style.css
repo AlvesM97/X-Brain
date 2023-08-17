@@ -54,3 +54,9 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width: 1900px) {
+  .grid-container {
+    margin: 1% 10% 1% 10%;
+  }
+}
