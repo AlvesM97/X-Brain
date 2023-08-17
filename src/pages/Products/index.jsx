@@ -49,7 +49,7 @@ function Products() {
           ))}
         </div>
         <div className="data-container">
-          <h2 className="title">Dados do Clinte</h2>
+          <h2 className="title">Dados do Cliente</h2>
           <Dados onSubmit={submit} />
         </div>
       </div>
